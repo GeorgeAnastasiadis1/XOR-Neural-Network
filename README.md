@@ -2,7 +2,7 @@
 
 This is a NumPY-based implementation of a Multi-Layer Perceptroj (MLP) built without high-level ML libraries like PyTorch or TensorFlow
 
-2. Key Features 
+1. Key Features 
 
 Object Oriented Design: To create the Neural Network classes were created for the individual aspects - Nodes, Layers and the Neural Network itself. This allows the ability to change the overalll structure of the NN. 
 
@@ -10,7 +10,7 @@ Custom Backpropagation: To teach the desired behaviour of an XOR gate, the chain
 
 Stochastic Data Generation: The project uses a custom generator for the listing of the inputs and outputs to produce a training set of thousands of samples to achieve the necessary variance for the Gradient Descent algorithm. 
 
-3. Repository Structure
+2. Repository Structure
 
 Neural_Network.py: The core architecture which includes the Activation functions and forward/backward passes
 
@@ -18,7 +18,7 @@ data_gen.py: Data utility for generating training samples
 
 XOR_Execute.py: The entry point for training and evaluation, which includes the parameters (Layers, learning rate, epochs and samples) to tune the implementation of the architecture.
 
-4. Mathematical Implementation
+3. Mathematical Implementation
 
 Activation Function: Sigmoid and Sigmoid Derivative
 To solve the XOR problem, the network must learn a non-linear decision boundary. We use the Sigmoid function to "squash" the output of each neuron into a probability range between 0 and 1.
